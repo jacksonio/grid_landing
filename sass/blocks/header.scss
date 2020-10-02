@@ -2,7 +2,7 @@
   border-bottom: 4px solid $second;
 }
 
-.header_wrap {
+.header__wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -11,24 +11,24 @@
   padding-bottom: 55px;
 }
 
-.header_logo {
+.header__logo {
   margin-right: 20px;
 }
 
-.header_menu {
+.header__menu {
   margin: 0;
   padding: 0;
 }
 
 
 @media (max-width: 768px) {
-  .header_wrap {
+  .header__wrap {
     flex-direction: column;
     justify-content: flex-start;
     padding-top: 25px;
     padding-bottom: 25px;
   }
-  .header_logo {
+  .header__logo {
     margin-right: 0;
     margin-bottom: 20px;
   }

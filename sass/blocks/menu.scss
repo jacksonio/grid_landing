@@ -6,7 +6,7 @@ $text_color: #707070;
   flex-wrap: wrap;
 }
 
-.menu_element {
+.menu__element {
   margin-right: 35px;
 
   &:last-child {
@@ -14,7 +14,7 @@ $text_color: #707070;
   }
 }
 
-.menu_link {
+.menu__link {
   font-size: 12px;
   font-family: $raleway;
   color: $text_color;
@@ -48,7 +48,7 @@ $text_color: #707070;
 }
 
 @media (max-width: 768px) {
-  .menu_element {
+  .menu__element {
     margin-right: 20px;
   }
 }
